@@ -3,8 +3,8 @@ on: [push]
 
 env:
   AZURE_SUBSCRIPTION: d33fbc9c-4465-408a-b4ce-5c595c475ea2
-  SPRING_CLOUD_SERVICE: springcloudrashdemo # customize this
-  KEYVAULT: rashdemoKV # customize this
+  SPRING_CLOUD_SERVICE: springcloudrashdemo
+  KEYVAULT: rashdemoKV
   # ==== APPS ====:
   API_GATEWAY: api-gateway
   ADMIN_SERVER: admin-server
